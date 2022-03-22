@@ -1,0 +1,103 @@
+#greeting {
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: 2px solid #ccc;
+  border-radius: 1em;
+  color: white;
+  background-color: #eee;
+  text-shadow: 0 0 5px #333;
+  text-align: center;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+#input {
+  background-color:skyblue;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+#contents {
+  background-color: rgb(215, 215, 215);
+}
+
+#navyhead {
+  background-color: navy;
+  padding: 10px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#input > div {
+  color: white;
+  line-height: 170%;
+}
+
+#input > button {
+  display: block;
+  width: 70px;
+}
+
+button {
+  height: 45px;
+}
+
+.list {
+  display: flex;
+}
+
+#navyhead > button {
+  width: 150px;
+}
+ul {
+  list-style: none;
+  padding: 30px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+}
+
+.name:hover {
+  color: hotpink;
+}
+
+.message {
+  font-size: small;
+}
+
+.time {
+  font-size: small;
+}
+
+.nameAndTime {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  padding-bottom: 3px;
+  margin-bottom: 25px;
+  border-bottom: solid gray 1px;
+}
+
+img {
+  height: 10px;
+  margin-right: 5px;
+}
+
+.textbox {
+  width: 100%;
+}
+
+.list > img {
+  height: 35px;
+  border-radius: 100%;
+  margin-right: 8px;
+}
